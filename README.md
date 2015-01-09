@@ -1,5 +1,4 @@
-GleSYS API/Ansible Demo. (for Debian 7)
-======================================
+# GleSYS API/Ansible Demo. (for Debian 7)
 
 This is an automated procedure to:
 
@@ -9,8 +8,7 @@ This is an automated procedure to:
   * install Wordpress, base install with Ansible (http://docs.ansible.com/)
 
 
-Requirements for hostnode. (where you initiate the script)
-=========================================================
+## Requirements for hostnode. (where you initiate the script)
 
    * ansible 1.7
    * sshpass
@@ -22,15 +20,16 @@ Requirements for hostnode. (where you initiate the script)
    * git-core
 
 
-Installation.
-===================
+## Installation.
+
+
+#### Step 1 – API Key
 
    * Create a GleSYS API key (with IP, DOMAIN and SERVER privilegies)
    * use a domain which is maintained on your GleSYS account. (record should not pre-exist)
 
 
-Requirements for hostnode. (where you initiate the script)
-=========================================================
+#### Step 2 - Requirements (where you initiate the script)
 
    * ansible 1.7
    * sshpass
@@ -42,8 +41,7 @@ Requirements for hostnode. (where you initiate the script)
    * git-core
 
 
-Debian/Ubuntu.
-====================
+###### Install these on Debian/Ubuntu.
 
 
 	apt-get install python-dev build-essential python-pip pwgen xmlstarlet curl sshpass nmap python-passlib
@@ -54,8 +52,7 @@ Debian/Ubuntu.
 	./deploy.sh blog.domain.com
 
 
-MacOS X (using homebrew).
-=====================================
+###### Install these on MacOS X (using homebrew).
 
 
 	brew install ansible
@@ -74,7 +71,7 @@ MacOS X (using homebrew).
 
 
 
-Run the script.
+#### Step 3 - Run the script.
 =====================================
 
 First: Add your API credentials to deploy.sh where it says:
