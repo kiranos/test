@@ -55,19 +55,21 @@ Below are installation instructions for Debian/Ubuntu and MacOS X. However, it's
 First download the script:
 
 
-git clone https://github.com/GleSYS/wp-auto-deploy.git
+	git clone https://github.com/GleSYS/wp-auto-deploy.git
 
 
 Then add your API credentials to deploy.sh where it says:
 
-#API Credentials
-USER=PLACE_YOUR_ACCOUNT_HERE
-KEY=PLACE_YOUR_KEY_HERE
+
+	#API Credentials
+	USER=PLACE_YOUR_ACCOUNT_HERE
+	KEY=PLACE_YOUR_KEY_HERE
 
 
 Finally, run the script (be sure to meet the requirements above):
 
-./deploy.sh FQDN (for example: ./deploy.sh blog.domain.com)
+
+	./deploy.sh FQDN (for example: ./deploy.sh blog.domain.com)
 
 
 ## This will be installed on the remote host
