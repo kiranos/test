@@ -13,8 +13,8 @@ This is an automated procedure to:
 
 #### Step 1 – API Key
 
-   * Create a GleSYS API key with IP, DOMAIN and SERVER privilegies. (`Permissions / Allow all on Domain, IP and Server`)
-   * Use a domain which is maintained on your GleSYS account. (record should not pre-exist)
+   * create a GleSYS API key with IP, DOMAIN and SERVER privilegies (`Permissions / Allow all on Domain, IP and Server`)
+   * use a domain which is maintained on your GleSYS account (record should not pre-exist)
 
 
 #### Step 2 - Requirements (where you initiate the script)
@@ -28,16 +28,18 @@ This is an automated procedure to:
    * Nmap
    * git-core
 
-Below is installation instructions for Debian/Ubuntu and MacOS X. However, it's possible to keep on using your preferred OS, just find the above packages and you'll be good to go.
+Below are installation instructions for Debian/Ubuntu and MacOS X. However, it's possible to keep on using your preferred OS, just find the above packages and you'll be good to go.
 
 
 ###### Install these on Debian/Ubuntu
+
 
 	apt-get install python-dev build-essential python-pip pwgen xmlstarlet curl sshpass nmap python-passlib
 	pip install ansible
 
 
 ###### Install these on MacOS X (using Homebrew)
+
 
 	brew install ansible
 	brew install xmlstarlet
@@ -52,7 +54,8 @@ Below is installation instructions for Debian/Ubuntu and MacOS X. However, it's 
 
 First download the script:
 
-  git clone https://github.com/GleSYS/wp-auto-deploy.git
+
+        git clone https://github.com/GleSYS/wp-auto-deploy.git
 
 
 Then add your API credentials to deploy.sh where it says:
