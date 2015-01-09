@@ -20,13 +20,13 @@ This is an automated procedure to:
 #### Step 2 - Requirements (where you initiate the script)
 
    * Ansible 1.7
-   * sshpass
+   * Sshpass
    * PWGen
    * XMLStarlet
-   * curl
+   * Curl
    * Python Passlib Library
    * Nmap
-   * git-core
+   * Git-core
 
 Below are installation instructions for Debian/Ubuntu and MacOS X. However, it's possible to keep on using your preferred OS, just find the above packages and you'll be good to go.
 
@@ -97,4 +97,4 @@ Finally, run the script (be sure to meet the requirements above):
 
 
    * watch this instructional video: [Server Provisioning with GleSYS API & Ansible](http://vimeo.com/116329707)
-   * If you need further help send an email to support@glesys.se
+   * if you need further help send an email to support@glesys.se
