@@ -8,24 +8,12 @@ This is an automated procedure to:
   * install Wordpress, base install with Ansible (http://docs.ansible.com/)
 
 
-## Requirements for hostnode. (where you initiate the script)
-
-   * ansible 1.7
-   * sshpass
-   * pwgen
-   * xmlstarlet
-   * curl
-   * python passlib library
-   * nmap
-   * git-core
-
-
 ## Installation.
 
 
 #### Step 1 – API Key
 
-   * Create a GleSYS API key (with IP, DOMAIN and SERVER privilegies)
+   * Create a GleSYS API key with IP, DOMAIN and SERVER privilegies. ( `Permissions -> Allow all on  IP, Domain och Server` )
    * use a domain which is maintained on your GleSYS account. (record should not pre-exist)
 
 
@@ -39,6 +27,8 @@ This is an automated procedure to:
    * python passlib library
    * nmap
    * git-core
+
+Below is installation instructions for the requirements on Debian/Ubuntu and MacOS X, however it is possible to keep on using your prefered OS, just find above packages for your OS and you'll be good to go.
 
 
 ###### Install these on Debian/Ubuntu.
@@ -89,8 +79,8 @@ Then run the script with: (dont forget to check Requirements first)
 
 
 
-Will be installed on the remote host.
-=====================================
+## This will be installed on the remote host.
+
 
    * Debian 7 as template (for this demo, you can edit the ansible playbook  as you like to make it compatible with other dists.)
    * apache2.2
@@ -101,8 +91,7 @@ Will be installed on the remote host.
    * Latest Wordpress (post-setup config is done with http://wp-cli.org/)
 
 
-GleSYS API calls used.
-======================
+## GleSYS API calls used.
 
    * Create server (https://github.com/GleSYS/API/wiki/Full-API-Documentation#servercreate)
    * List domain records (https://github.com/GleSYS/API/wiki/Full-API-Documentation#domainlistrecords)
