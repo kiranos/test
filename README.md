@@ -74,6 +74,7 @@ Finally, run the script (be sure to meet the requirements above):
 
 ## This will be installed on the remote host
 
+
    * Debian 7 as template (you can edit the Ansible Playbook to make it compatible with other distributions)
    * Apache 2.2
    * MySQL 5.5
@@ -85,7 +86,15 @@ Finally, run the script (be sure to meet the requirements above):
 
 ## GleSYS API calls used for this demo
 
-   * Create Server (https://github.com/GleSYS/API/wiki/Full-API-Documentation#servercreate)
-   * List Domain Records (https://github.com/GleSYS/API/wiki/Full-API-Documentation#domainlistrecords)
-   * Add Domain Record (https://github.com/GleSYS/API/wiki/Full-API-Documentation#domainaddrecord)
-   * Update PTR for IP (https://github.com/GleSYS/API/wiki/Full-API-Documentation#ipsetptr)
+
+   * [Create Server](https://github.com/GleSYS/API/wiki/Full-API-Documentation#servercreate)
+   * [List Domain Records](https://github.com/GleSYS/API/wiki/Full-API-Documentation#domainlistrecords)
+   * [Add Domain Record](https://github.com/GleSYS/API/wiki/Full-API-Documentation#domainaddrecord)
+   * [Update PTR for IP](https://github.com/GleSYS/API/wiki/Full-API-Documentation#ipsetptr)
+
+
+## SUPPORT
+
+
+   * watch this instructional video: [Server Provisioning with GleSYS API & Ansible](http://vimeo.com/116329707)
+   * If you need further help send an email to support@glesys.se
