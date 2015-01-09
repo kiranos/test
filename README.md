@@ -93,7 +93,7 @@ Finally, run the script (be sure to meet the requirements above):
    * [Update PTR for IP](https://github.com/GleSYS/API/wiki/Full-API-Documentation#ipsetptr)
 
 
-## SUPPORT
+## Support
 
 
    * watch this instructional video: [Server Provisioning with GleSYS API & Ansible](http://vimeo.com/116329707)
